@@ -1,13 +1,13 @@
-### ADM_assignment_1
-
-# SECTION: Introduction
-# Say "Hello, World!" With Python
-# Python If-Else
-# Arithmetic Operators
-# Python: Division
-# Loops
-# Write a function
-# Print Function
+## ADM_assignment_1
+---
+## SECTION: Introduction (7/7)
+1. "Hello, World!" With Python
+2. Python If-Else
+3. Arithmetic Operators
+4. Python: Division
+5. Loops
+6. Write a function
+7. Print Function
 
 # SECTION: Basic Data Types
 # List Comprehensions
