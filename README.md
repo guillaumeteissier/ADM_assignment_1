@@ -1,4 +1,15 @@
 ## ADM_assignment_1
+
+ADM_assignment_1 : contains, in addition to this readme file:
+- Scripts.py : the different exercises realised for the first ADM assignment ordered the same way they appear below
+- Stamps: contains the list of screenshots for the 
+
+
+Remarks:
+The mention "Assisted" will appear after some of the exercises' names. This means the solution was reached with the help of the "discussions"
+The mention "Assisted" will not appear next to the numpy exercises that required, what can only be describe as, a weird blank/space in the output.
+The mention "Runtime Error" will appear after some of the exercises' names. This means the code was correct but generated a runtime error.
+
 ---
 ### SECTION: Introduction (7/7)
 1. "Hello, World!" With Python
@@ -31,8 +42,7 @@
 6. String Formatting
 7. Capitalize!
 8. Merge the Tools!
-9. The Minion Game
-10. Did not look at the solution on hackerrank but there were solutions on the web. 
+9. The Minion Game [Assited][Runtime]
 ---
 
 ### SECTION: Sets
@@ -89,7 +99,7 @@
 2. Decorators 2 - Name Directory
 ---
 
-### SECTION : Numpy (15/15)
+### SECTION : Numpy
 1. Arrays
 2. Shape and Reshape
 3. Transpose and Flatten
@@ -104,14 +114,15 @@
 12. Inner and Outer
 13. Polynomials
 14. Linear Algebra
+15. Zeros and Ones
 ---
 
-### SECTION: XML (2/2)
-1. XML 1 - Find the Score
-2. XML2 - Find the Maximum Depth
+### SECTION: XML
+1. XML1 - Find the Score
+2. XML2 - Find the Maximum Depth [Assisted]
 ---
 
-### SECTION: Challenges ()
+### SECTION: Challenges
 1. Birthday Cake Candles
 2. Number Line Jumps
 3. Viral Advertising
