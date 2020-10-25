@@ -56,6 +56,9 @@ The mention "Runtime" will appear after some of the exercises' names. This means
 7. Set .difference() Operation
 8. Set Mutations
 9. Check Subset
+10. Set .symmetric_difference() Operation
+11. No Idea!
+
 ---
 
 ### SECTION: Collections
