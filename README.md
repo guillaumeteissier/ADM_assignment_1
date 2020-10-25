@@ -107,7 +107,7 @@
 ---
 
 ### SECTION: XML (2/2)
-1 XML 1 - Find the Score
+1. XML 1 - Find the Score
 2. XML2 - Find the Maximum Depth
 ---
 
