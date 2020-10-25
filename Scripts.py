@@ -435,8 +435,7 @@ for x in range(int(input())):
     d = set(input().split())
     print(b.issubset(d))
 
-# SECTION: 
-
+# SECTION: Collections
 
 # collections.Counter()
 # I swear this would have been the most useful package in the previous exercises.
@@ -538,6 +537,19 @@ for x in range(n):
         print(a//b)
     except Exception as e:
         print("Error Code:",e)
+        
+# Incorrect Regex 
+import re
+n = int(input())
+
+for x in range(n):
+    test = input()
+    try:
+        regex = re.compile(test)
+        print(True)
+    except re.error:
+        print(False)
+
 
 # SECTION: Builtins
 
@@ -922,3 +934,34 @@ np.set_printoptions(legacy='1.13')
 n=int(input())
 a = np.array([input().split() for x in range(n)], float)
 print(np.linalg.det(a))
+
+# SECTION: XML
+
+# XML 1 - Find the Score
+import sys
+import xml.etree.ElementTree as etree
+#n = int(input())
+#haaa = []
+#for x in range(n):
+#    haaa.append(input())
+#xml = "".join(haaa)
+#tree = etree.ElementTree(etree.fromstring(xml))
+#root = tree.getroot()
+
+def get_attr_number(node):
+    #attributes = []
+    #for x in node.iter():
+    #    print(x.attrib)
+
+    test = [len(x.attrib) for x in node.iter()]
+    return sum(test)
+    #return sum(len(child.attrib) for child in node.iter())
+
+if __name__ == '__main__':
+    sys.stdin.readline()
+    xml = sys.stdin.read()
+    tree = etree.ElementTree(etree.fromstring(xml))
+    root = tree.getroot()
+    print(get_attr_number(root))
+
+# 
