@@ -2,16 +2,16 @@
 
 ADM_assignment_1 : contains, in addition to this readme file:
 - Scripts.py : the different exercises realised for the first ADM assignment ordered the same way they appear below
-- Stamps: contains the list of screenshots for the 
+- Stamps: contains the list of screenshots
 
 
 Remarks:
 The mention "Assisted" will appear after some of the exercises' names. This means the solution was reached with the help of the "discussions"
 The mention "Assisted" will not appear next to the numpy exercises that required, what can only be describe as, a weird blank/space in the output.
-The mention "Runtime Error" will appear after some of the exercises' names. This means the code was correct but generated a runtime error.
+The mention "Runtime" will appear after some of the exercises' names. This means the code was correct but generated a runtime error.
 
 ---
-### SECTION: Introduction (7/7)
+### SECTION: Introduction
 1. "Hello, World!" With Python
 2. Python If-Else
 3. Arithmetic Operators
@@ -124,7 +124,7 @@ The mention "Runtime Error" will appear after some of the exercises' names. This
 
 ### SECTION: Challenges
 1. Birthday Cake Candles
-2. Number Line Jumps
+2. Number Line Jumps [Runtime]
 3. Viral Advertising
 4. Recursive Digit Sum
-5. Insertion Sort - Part 1
+5. Insertion Sort - Part 1 [Runtime]
