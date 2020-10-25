@@ -808,7 +808,117 @@ flat_arr = arr.flatten()
 print(trans_arr)
 print(flat_arr)
 
-#
+# Concatenate
+import numpy as np
 
+n,m,p = map(int, input().split(" "))
 
+empty = []
 
+for x in range(n+m):
+    empty.append(input().split(" "))
+
+arr = np.array(empty, int)
+print(arr)
+
+#Zeros and Ones
+import numpy as np
+abc = tuple(map(int, input().split(" ")))
+
+zero = np.zeros(abc, dtype = np.int)
+
+one = np.ones(abc, dtype= np.int)
+
+print(zero)
+print(one)
+
+# Eye and Identity
+import numpy as np
+
+n,m = map(int, input().split(" "))
+matrix = str(np.eye(n, m)).replace("1"," 1").replace("0"," 0")
+print(matrix)
+
+#Array Mathematics
+import numpy as np
+n,m = map(int, input().split(" "))
+
+a = np.array([input().split() for x in range(n)],dtype=int)
+b = np.array([input().split() for x in range(n)],dtype=int)
+
+print((a+b))
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+#Floor, Ceil and Rint
+# The solution requires some "space". I took the line of code from the solutions. this happens several time  
+import numpy as np
+# I am not going to fight for a space
+np.set_printoptions(sign=' ')
+
+arr = np.array(input().split(), float)
+print(np.floor(arr))
+print(np.ceil(arr))
+print(np.rint(arr))
+
+# Sum and Prod
+import numpy as np
+
+n,m = map(int,input().split(" "))
+arr = np.array([(input().split(" ")) for x in range(n)], int)
+print(np.prod(np.sum((arr), axis=0)))
+
+# Min and Max
+import numpy as np
+
+n,m = map(int, input().split(" "))
+arr = np.array([input().split(" ") for x in range(n)], int)
+print(np.max(np.min(arr, axis=1)))
+
+# Mean, Var, and Std
+import numpy as np
+# Not fighting for a space
+np.set_printoptions(legacy='1.13')
+
+n,m = map(int, input().split(" "))
+arr = np.array([input().split() for x in range(n)], float)
+print(np.mean(arr, axis=1))
+print(np.var(arr, axis=0))
+print(np.std(arr))
+
+# Dot and Cross
+import numpy as np
+ 
+n = int(input())
+a = np.array([input().split(" ") for x in range(n)], int)
+b = np.array([input().split(" ") for x in range(n)], int)
+print(np.matmul(a,b))
+
+# Inner and Outer
+import numpy as np
+
+a = np.array(input().split(" "), int)
+b = np.array(input().split(" "), int)
+
+print(np.inner(a,b))
+print(np.outer(a,b))
+
+# Polynomials
+import numpy as np
+
+p = np.array(input().split(" "), float)
+x = float(input())
+
+print(np.polyval(p,x))
+
+# Linear Algebra
+import numpy as np
+# Not fighting Again
+np.set_printoptions(legacy='1.13')
+
+n=int(input())
+a = np.array([input().split() for x in range(n)], float)
+print(np.linalg.det(a))
