@@ -28,9 +28,7 @@ The mention "Runtime" will appear after some of the exercises' names. This means
 4. Finding the percentage
 5. Lists
 6. Tuples
-7. sWAP cASE
-8. String Split and Join
-9. What's Your Name?
+
 ---
 
 ### SECTION: Strings
@@ -43,6 +41,9 @@ The mention "Runtime" will appear after some of the exercises' names. This means
 7. Capitalize!
 8. Merge the Tools!
 9. The Minion Game [Assited][Runtime]
+10. sWAP cASE
+11. String Split and Join
+12. What's Your Name?
 ---
 
 ### SECTION: Sets
